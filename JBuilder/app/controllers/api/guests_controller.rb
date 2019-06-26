@@ -1,6 +1,7 @@
 class Api::GuestsController < ApplicationController
   def index
     @guests = Guest.all
+    # debugger;
     render :index
   end
 
